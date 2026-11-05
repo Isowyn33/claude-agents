@@ -41,4 +41,4 @@ These go into the implementation plan for the `coder` agent. Don't commit or pus
 - **Risks & edge cases** the implementation and review must cover.
 - **Open questions** for the user / product owner.
 
-Keep it as short as the problem allows. Prefer the simplest design that satisfies the real requirements (YAGNI). Flag over-engineering, including your own. If the decision deserves an ADR, say so (the user has an `adr-helper` skill).
+Keep it as short as the problem allows. Prefer the simplest design that satisfies the real requirements (YAGNI). Flag over-engineering, including your own. If the decision deserves an ADR (Architecture Decision Record), say so, and use an ADR skill if one is available.
