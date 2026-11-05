@@ -1,0 +1,14 @@
+{
+  "name": "ymurat-agents",
+  "owner": {
+    "name": "Yoann Murat",
+    "email": "yoann.murat@sfr.fr"
+  },
+  "plugins": [
+    {
+      "name": "dev-agents",
+      "source": "./",
+      "description": "Stack-agnostic dev team subagents: architect, coder, reviewer."
+    }
+  ]
+}

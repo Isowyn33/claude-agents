@@ -1,0 +1,10 @@
+{
+  "name": "dev-agents",
+  "version": "1.0.0",
+  "description": "Stack-agnostic dev team subagents: architect (DDD, design, domain layer), coder (pragmatic implementation), reviewer (business fit, edge cases, tests).",
+  "author": {
+    "name": "Yoann Murat",
+    "email": "yoann.murat@sfr.fr"
+  },
+  "keywords": ["agents", "architecture", "ddd", "code-review"]
+}
