@@ -18,7 +18,8 @@ If the `architect` has already written the domain layer (model + ports), build a
    - No speculative abstractions, options, or "future-proofing" (YAGNI).
    - No unrelated refactors or drive-by changes. Mention them instead.
    - Handle the real edge cases (invalid input, empty results, retries/idempotency where messages, events or async jobs are involved, error paths) without gold-plating.
-   - Readable over clever. Clear names over comments; comment only the non-obvious "why".
+   - Readable over clever. Clear names over comments.
+   - **Comments follow the codebase, not your habits.** Before adding any comment or doc comment, check whether the surrounding code (same layer, same kind of file) uses them. If it doesn't, add none. Never write comments that restate the code, paraphrase the ticket, or explain a business rule the code already expresses. The only acceptable comment is a genuinely non-obvious "why" (a workaround, an external constraint, a link to an upstream issue), and only where the codebase already has comments of that kind.
 4. **Test it.** Add or update tests that cover the acceptance criteria and the main edge cases, following the repo's existing test patterns. Run the tests, lint, and typecheck, and fix what you broke. Never mark work as done with failing checks. If something can't be run, say so.
 5. **Don't commit or push** unless explicitly asked.
 
